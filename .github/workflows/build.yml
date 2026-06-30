@@ -78,5 +78,5 @@ jobs:
         with:
           tagName: app-v${{ needs.check-version.outputs.version }}
           releaseName: "App v${{ needs.check-version.outputs.version }}"
-          releaseDraft: false
+          releaseDraft: true
           prerelease: false
